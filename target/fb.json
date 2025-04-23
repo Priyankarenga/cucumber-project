@@ -1,0 +1,267 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-04-23T17:33:52.488Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3654777100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeLaunch()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To validate the forgotten password link",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-fb-application;to-validate-the-forgotten-password-link",
+        "after": [
+          {
+            "result": {
+              "duration": 161395600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterLaunch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1424268400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user click the forgotten password link",
+            "match": {
+              "location": "StepDefinition2.userClickTheForgottenPasswordLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 437262500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the email id to finding our account and click the search button",
+            "match": {
+              "location": "StepDefinition2.enterTheEmailIdToFindingOurAccountAndClickTheSearchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user found the account",
+            "match": {
+              "location": "StepDefinition2.userFoundTheAccount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of fb application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-fb-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/forgotten.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-04-23T17:33:58.237Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2853944600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeLaunch()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the all the username and password",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;validate-the-all-the-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 214187800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterLaunch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 211768000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the values in username and password field",
+            "match": {
+              "location": "StepDefinition.userEnterTheValuesInUsernameAndPasswordField(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "java@123",
+                  "8347837433"
+                ]
+              },
+              {
+                "cells": [
+                  "python@123",
+                  "7654321789"
+                ]
+              },
+              {
+                "cells": [
+                  "selenium@123",
+                  "6655378228"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 120565700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click the login button",
+            "match": {
+              "location": "StepDefinition.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6247465000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "navigate into corresponding page",
+            "match": {
+              "location": "StepDefinition.navigateIntoCorrespondingPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-04-23T17:34:07.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2871213400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeLaunch()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To validate invalid username and invalid password in the login page",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-facebook-application;to-validate-invalid-username-and-invalid-password-in-the-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 122836600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterLaunch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 323796400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "to pass values in username and password field and click the login button",
+            "match": {
+              "location": "StepDefinition.toPassValuesInUsernameAndPasswordFieldAndClickTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.step.StepDefinition.navigateIntoErrorPage(StepDefinition.java:58)\r\n\tat ✽.navigate into error page(file:src/test/resources/FeatureFile/login.feature:18)\r\n",
+              "duration": 1544900,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "navigate into error page",
+            "match": {
+              "location": "StepDefinition.navigateIntoErrorPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of facebook application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/login.feature",
+    "tags": []
+  }
+]

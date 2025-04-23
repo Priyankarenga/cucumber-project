@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="18.724401">
+    <testcase classname="To validate the login functionality of fb application" name="To validate the forgotten password link" time="5.742927">
+        <system-out><![CDATA[When user click the forgotten password link.................................passed
+And enter the email id to finding our account and click the search button...passed
+Then user found the account.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="Validate the all the username and password" time="9.656642">
+        <system-out><![CDATA[When user enter the values in username and password field...................passed
+And click the login button..................................................passed
+Then navigate into corresponding page.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook application" name="To validate invalid username and invalid password in the login page" time="3.324832">
+        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.step.StepDefinition.navigateIntoErrorPage(StepDefinition.java:58)&#13;&#10;&#9;at ✽.navigate into error page(file:src/test/resources/FeatureFile/login.feature:18)&#13;&#10;"><![CDATA[When to pass values in username and password field and click the login button.passed
+Then navigate into error page...............................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.step.StepDefinition.navigateIntoErrorPage(StepDefinition.java:58)
+	at ✽.navigate into error page(file:src/test/resources/FeatureFile/login.feature:18)
+]]></failure>
+    </testcase>
+</testsuite>

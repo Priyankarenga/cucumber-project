@@ -61,5 +61,6 @@ public class AdactIn extends BaseClass {
 			//window-5
 		 toGetAttribute(b.getOrderNo(), "value");
 		 
+		 System.out.println("priyanka was done");
 }
 }
